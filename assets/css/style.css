@@ -3,8 +3,13 @@ body{
 	width: 100%;
 	height: 100%;
 	margin: 0 auto;
+	overflow-x: hidden;
 }
 
+.wrapper{
+	min-height: 100%;
+	margin-bottom: -80px;
+}
 .container{
 	margin: 0 auto;
 	width: 960px;
@@ -37,11 +42,14 @@ a{
 }
 
 section{
+	overflow: hidden;
 	float: left;
 	padding: 10px 30px;
 	width: 590px;
-	background-color: #ebebeb;
 	margin-bottom: 30px;
+	background-color: #ebebeb;
+	clear: both;
+	overflow: auto;
 }
 
 .about-me_child{
@@ -70,6 +78,8 @@ aside{
 	padding: 0 20px;
 	width: 230px;
 	background-color: #ebebeb;
+	clear: both;
+	overflow: auto;
 }
 
 .connect-me{
@@ -84,26 +94,40 @@ aside{
 }
 
 footer{
-	position: fixed;
 	color: #ebebeb;
 	padding: 20px;
 	text-align: center;
 	font-size: 10px;
 	background-color: #777;
-	bottom: 0;
 	width: inherit;
 	border-top: 7px solid #169e9e;
+	clear: both;
+	overflow: auto;
 }
 
-#my-portfolio-pic{
-	position: relative;
-	width: 40%;
-	height: 150px;
-	padding: 0 20px 20px 0;
-	top:0;
-	float: left;
+/*  DO NOT CHANGE THE CODE ABOVE  */
+
+form{
+	padding: 0 20px 0 20px;
+	font-size: 20px;
+	line-height: 50px;
+	font: bold;
+	color: #777;
 }
-#mathcat{
-	bottom: 0;
-	color: white;
+
+input{
+
+	width: 100%;
+}
+textarea{
+	height: 210px;
+	width: 100%;
+}
+
+#submit{
+	color: #ebebeb;
+	font-size: 20px;
+	background-color: #169e9e;
+	border: 5px solid #169e9e;
+	width: 150px;
 }
