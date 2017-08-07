@@ -20,14 +20,14 @@ header{
 
 .name{
 	color: #ebebeb;
-	padding: 10px 40px;
+	padding: 0 40px 0 40px;
 	background-color: #169e9e;
 	float: left;
 	text-align: center;
 }
 
 nav{
-	padding: 35px 0;
+	padding: 30px 0;
 	float: right;
 }
 
@@ -38,33 +38,50 @@ a{
 
 section{
 	float: left;
-	padding: 20px;
-	width: 600px;
+	padding: 10px 30px;
+	width: 590px;
 	background-color: #ebebeb;
+	margin-bottom: 30px;
 }
 
 .about-me_child{
-	padding: 0 0 20px 0;
+	padding: 0  0 20px 0;
 	color: #169e9e;
 	border-bottom: 2px solid #777;
 }
 
-img{
+#my-pic{
+	padding: 0 20px 20px 0;
 	top:0;
 	width: 150px;
 	height: 150px;
-	border-radius: 10%;
+	float: left;
+}
+
+p{
+	line-height: 40px;
 }
 
 aside{
+	position: fixed;
+	right: 12%;
 	text-align: center;
 	color: #169e9e;
 	padding: 0 20px;
-	float: right;
-	width: 250px;
+	width: 230px;
 	background-color: #ebebeb;
 }
 
+.connect-me{
+	padding: 0 20px 20px 0;
+	border-bottom: 2px solid #777;
+}
+
+.git, .in, .stack{
+	padding: 7px;
+	width: 25%;
+	height: 50px;
+}
 
 footer{
 	position: fixed;
@@ -76,4 +93,17 @@ footer{
 	bottom: 0;
 	width: inherit;
 	border-top: 7px solid #169e9e;
+}
+
+#my-portfolio-pic{
+	position: relative;
+	width: 40%;
+	height: 150px;
+	padding: 0 20px 20px 0;
+	top:0;
+	float: left;
+}
+#mathcat{
+	bottom: 0;
+	color: white;
 }
