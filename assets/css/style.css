@@ -52,17 +52,17 @@ section{
 	overflow: auto;
 }
 
-.about-me_child{
+.header2{
 	padding: 0  0 20px 0;
 	color: #169e9e;
 	border-bottom: 2px solid #777;
 }
 
-#my-pic{
+#image{
 	padding: 0 20px 20px 0;
 	top:0;
-	width: 150px;
-	height: 150px;
+	width: 200px;
+	height: 200px;
 	float: left;
 }
 
@@ -105,8 +105,20 @@ footer{
 	overflow: auto;
 }
 
-/*  DO NOT CHANGE THE CODE ABOVE  */
+/*    
+		PORTFOLIO.HTML STYLE.CSS PARAMETERS
+*/
 
+
+
+
+
+
+/* ********************************** */ 
+
+/*
+		CONTACT.HTML STYLE.CSS PARAMETERS
+*/
 form{
 	padding: 0 20px 0 20px;
 	font-size: 20px;
@@ -131,3 +143,5 @@ textarea{
 	border: 5px solid #169e9e;
 	width: 150px;
 }
+
+/* ********************************** */ 
