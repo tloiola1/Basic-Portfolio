@@ -41,8 +41,14 @@ nav{
 }
 
 a{
+	padding: 10px;
 	text-decoration: none;
 	color: #777;
+}
+a:hover{
+	padding: 10px;
+	color: #ebebeb;
+	background-color: #169e9e;
 }
 
 section{
@@ -142,7 +148,10 @@ footer{
 /*    
 		PORTFOLIO.HTML STYLE.CSS PARAMETERS
 */
-
+#img-portfolio{
+	width: 279px;
+	height: 250px;
+}
 
 .portofolio-image{
 	margin-top: 30px;
